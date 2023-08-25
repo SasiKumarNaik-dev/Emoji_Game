@@ -1,5 +1,7 @@
 In this project, let's build an **Emoji Game** by applying the concepts we have learned till now.
 
+you can find the output page here https://sasiemojigame.ccbp.tech/
+
 ### Refer to the image below:
 
 <br/>
