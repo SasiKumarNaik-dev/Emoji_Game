@@ -1,0 +1,107 @@
+/* Write your code here. */
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.result-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.r-div {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 30px;
+  width: 50%;
+  justify-content: space-around;
+  background-color: #ffffff33;
+  padding: 40px;
+  border: 3px #ffffff30 solid;
+  border-radius: 30px;
+}
+
+.r-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+.score-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.r-score {
+  margin-top: -20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #6a59ff;
+}
+.result-heading {
+  font-size: 50px;
+}
+.try-btn {
+  font-size: 20px;
+  background-color: #ffce27;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .r-div {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .r-content {
+    order: 1;
+    width: 100%;
+  }
+  .result-img-style {
+    height: 300px;
+    width: 200px;
+  }
+  .r-img-div {
+    order: 0;
+  }
+  .result-heading {
+    font-size: 35px;
+  }
+  .score-title {
+    font-size: 20px;
+  }
+  .r-score {
+    font-size: 30px;
+  }
+  .try-btn {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .r-div {
+    width: 80%;
+  }
+  .r-content {
+    width: 50%;
+  }
+  .result-heading {
+    font-size: 45px;
+  }
+  .result-img-style {
+    height: 350px;
+    width: 250px;
+  }
+}

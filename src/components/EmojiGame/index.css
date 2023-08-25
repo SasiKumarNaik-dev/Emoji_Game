@@ -1,0 +1,36 @@
+/* Write your code here. */
+
+.game-page {
+  min-height: 100vh;
+  background-image: linear-gradient(145deg, #9796f0, #fbc7d4);
+}
+
+.game-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.game-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 63%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .game-div {
+    width: 100%;
+  }
+  .game-section {
+    padding: 0px;
+    min-height: 80vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .game-div {
+    width: 80%;
+  }
+}
